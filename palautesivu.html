@@ -1,0 +1,24 @@
+<DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="tyyli.css">
+	<script src="script.js" defer></script>
+	<title>Palaute</title> 
+</head>
+<body>
+	//htmlspecialchars muuttaa syötetyt html elementit tekstiksi jotta käyttäjän ei voi lähettää html elementtäjä 
+	<form method="post" action="htmlspecialchars">
+		<select name="kurssit" id="kurssit">
+    			<option value=""></option>
+    			<option value=""></option>
+    			<option value=""></option>
+    			<option value=""></option>
+		</select>
+		<p>Anna palautetta alla olevaan tekstikenttään.</p>
+		<textarea name="palaute" rows="10" cols="35"></textarea>
+		<br>
+		<input type="submit" name="laheta"></button>
+	</form>
+</body>
+</html>
